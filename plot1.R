@@ -39,5 +39,6 @@ hist(hpc$Global_active_power, col="red",
      xlab = "Global Active Power (kilowatts)", ylab = "Frequency", 
      main = "Global Active power")
 
-# remove device
+# Close device
+
 dev.off()
